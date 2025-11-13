@@ -1,0 +1,7 @@
+{
+  "num_train": 25000,
+  "num_test": 25000,
+  "vocab_size_including_pad": 10001,
+  "avg_length": 239.60142,
+  "median_length": 179.0
+}

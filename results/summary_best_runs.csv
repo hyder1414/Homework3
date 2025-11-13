@@ -1,0 +1,9 @@
+run_name,architecture,activation,optimizer,seq_len,grad_clipping,accuracy,f1,avg_epoch_time
+lstm_relu_adam_L100_clip,lstm,relu,adam,100,True,0.8419,0.8415,16.872
+lstm_relu_adam_L50_noclip,lstm,relu,adam,50,False,0.8172,0.8172,11.290000000000001
+lstm_relu_adam_L50_clip,lstm,relu,adam,50,True,0.8144,0.8144,16.684
+bilstm_relu_adam_L50_clip,bilstm,relu,adam,50,True,0.8129,0.8127,26.35125
+lstm_tanh_adam_L50_noclip,lstm,tanh,adam,50,False,0.8114,0.8114,10.856
+lstm_relu_adam_L25_clip,lstm,relu,adam,25,True,0.7742,0.7741,8.804
+rnn_relu_adam_L50_clip,rnn,relu,adam,50,True,0.7622,0.7618,21.881999999999998
+lstm_relu_sgd_L50_clip,lstm,relu,sgd,50,True,0.5292,0.5191,9.196000000000002
